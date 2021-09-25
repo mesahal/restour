@@ -1,0 +1,80 @@
+.navbar 
+{
+  
+    padding:0!important;
+    background-image: linear-gradient(to right,#6c5ce7,#5f1782);
+}
+.navbar-nav li
+{
+    padding:0 10px;
+    
+
+}
+.navbar-nav li a {
+    color:#fff!important;
+    font-weight:600;
+    
+   
+}
+.fa-bars
+{
+    color:#fff;
+    font-size:30px!important;
+}
+body
+{
+    background-image: linear-gradient(to right,#6c5ce7,#5f1782);
+
+}
+.register-left
+{
+    text-align:center;
+    color:#fff;
+    padding:30px;
+}
+.register-left img{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right: 50px;
+    margin-right: 50px;
+    animation:mover 1s infinite alternate;
+    
+}
+.register-left .btn-primary:hover{
+    background:#000;
+}
+.register-right
+{
+    border:none;
+    background:#f8f8f8;
+    border-top-left-radius:10% 50%;
+    border-bottom-left-radius:10% 50%;
+    padding:50px;
+}
+.register-right h3{
+    text-align:center;
+    margin-bottom:10px;
+}
+.register-form
+{
+    padding:45px;
+}
+.register-right .btn-primary
+{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+@keyframes mover{
+    0%{transform:translateY(0);}
+    100%{transform:translateY(-20);}
+}

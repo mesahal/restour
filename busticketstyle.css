@@ -1,0 +1,81 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-bar {
+    padding: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.menu-bar a {
+    text-decoration: none;
+}
+
+.home {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#second {
+    margin-top: 100px;
+}
+
+.halka {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 70%;
+}
+
+.add {
+    width: 180px;
+}
+
+.patla {
+    text-align: center;
+}
+
+.kalar {
+    background-color: rgb(204, 0, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.rdo {
+    width: 10%;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.jhapsa {
+    font-size: 20px;
+}
+
+.jhapsa2 {
+    background-color: #ff3838;
+    border: 1px solid black;
+    color: white;
+    padding: 3px 2px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    width: 77px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
